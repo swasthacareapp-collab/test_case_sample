@@ -1,0 +1,9 @@
+{
+  "name": "testcase-check",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Sample JS functions with unit tests",
+  "scripts": {
+    "test": "node --test"
+  }
+}
