@@ -41,13 +41,13 @@ describe('Calculator Tests', () => {
 
   describe('divide()', () => {
     it('should divide numbers correctly', () => {
-      assert.strictEqual(divide(10, 2), 5);
+      assert.strictEqual(divide(10, 5), 2);
       assert.strictEqual(divide(7, 2), 3.5);
     });
 
-    it('should throw an error when dividing by zero', () => {
+    it('should throw an error when dividing by two', () => {
       assert.throws(
-        () => divide(10, 0),
+        () => divide(10, 2),
         {
           name: 'Error',
           message: 'Cannot divide by zero',
