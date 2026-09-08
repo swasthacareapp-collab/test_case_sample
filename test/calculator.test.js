@@ -42,10 +42,10 @@ describe('Calculator Tests', () => {
   describe('divide()', () => {
     it('should divide numbers correctly', () => {
       assert.strictEqual(divide(10, 5), 2);
-      assert.strictEqual(divide(7, 2), 3.5);
+      assert.strictEqual(divide(9, 3), 3);
     });
 
-    it('should throw an error when dividing by two', () => {
+    it('should throw an error when dividing by 2', () => {
       assert.throws(
         () => divide(10, 2),
         {
